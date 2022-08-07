@@ -1,9 +1,7 @@
-*{
-    font-family: monterrat;
-}
 
 body{
     background-color:antiquewhite;
+    font-family: var(--bs-font-sans-serif);
 }
 
 /*Header*/

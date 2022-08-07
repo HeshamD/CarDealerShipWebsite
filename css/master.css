@@ -1,9 +1,7 @@
-*{
-    font-family: monterrat;
-}
 
 body{
     background: #f1fbff;
+    font-family: var(--bs-font-sans-serif);
 }
 
 .section-padding{
