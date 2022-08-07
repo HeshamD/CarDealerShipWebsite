@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/finance.css">
+    <title>Platinum Car Dealership</title>
+</head>
+<body>
+    
+    <div id="page">
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+                <div class="container">
+                    <!--LOGO Img-->
+                    <!-- <a class="navbar-brand" href="#">
+                        <img src="/docs/4.6/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="Platinum Car Dealership logo">
+                    </a> -->
+    
+                    <a class="navbar-brand" href="#"> <span class="text-warning">Platinum</span> Car Dealership</a>
+    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+                        <ul class="navbar-nav ml-auto ml-2 ml-lg-0">
+
+                            <!-- Home -->
+                            <li class="nav-item active">
+                                <a class="nav-link current-menu-item" href="index.html">Home</a>
+                            </li>
+    
+                            <!-- New Vehicles -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="inventory.html">New Vehicles </a>
+                            </li>
+
+                            <!-- Used Vehicles -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Finance</a>
+                            </li>
+    
+                            <!-- Used Vehicles -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="inventory.html">Used Vehicles</a>
+                            </li>
+                            
+                            <!-- Trade In Vehicles -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="tradeIn.html">Trade In</a>
+                            </li>
+    
+                            <!-- Services & Parts -->
+                            <li class="nav-item dropdown">
+    
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    Service & Parts
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="/Services/center">Service Center</a>
+                                    <a class="dropdown-item" href="/Services/schedule">Schedule Service</a>
+                                </div>
+                            </li>
+                            
+                            <!-- About -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    About
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="/About/about-us"> Center</a>
+                                    <a class="dropdown-item" href="/About/contact-us">Contact Us</a>
+                                    <a class="dropdown-item" href="/About/Careers">Careers</a>
+                                </div>
+                            </li>
+                            
+                        </ul>
+    
+                    </div>
+                </div>
+    
+            </nav>
+        </header>
+
+        <section id="heading-form">
+            <h2>Apply For Financing</h2>
+            <h3>Apply Today - It's easy!</h3>
+        </section>
+
+        <section id="finance-form">
+            
+            <div class="container">
+              <form class="row g-3">
+
+                <div class="row">
+
+                    <div class="col-md-4">
+                    <label for="validationServer01" class="form-label" >First name</label>
+                    <input type="text" class="form-control " id="validationServer01" value="" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="validationServer01" class="form-label" >Last name</label>
+                        <input type="text" class="form-control " id="validationServer01" value="" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-md-4">
+                    <label for="validationServer02" class="form-label">Email</label>
+                    <input type="text" class="form-control " id="validationServer02" value="" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="validationServer02" class="form-label">Phone</label>
+                        <input type="text" class="form-control " id="validationServer02" value="" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+
+                 </div>
+
+                
+                <div class="col-md-3">
+                  <label for="validationServer03" class="form-label">City</label>
+                  <input type="text" class="form-control " id="validationServer03" aria-describedby="validationServer03Feedback" required>
+                  <div id="validationServer03Feedback" class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationServer04" class="form-label">State</label>
+                  <select class="form-select " id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>...</option>
+                  </select>
+                  <div id="validationServer04Feedback" class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationServer05" class="form-label">Zip</label>
+                  <input type="text" class="form-control " id="validationServer05" aria-describedby="validationServer05Feedback" required>
+                  <div id="validationServer05Feedback" class="invalid-feedback">
+                    Please provide a valid zip.
+                  </div>
+                </div>
+                
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+              </form>
+            </div>
+            
+        </section>
+
+    </div>
+
+    <!--Js files-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

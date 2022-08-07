@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platinum Car Dealership</title>
+    <link rel="stylesheet" href="css/master.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div id="page">
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+                <div class="container">
+                    <!--LOGO Img-->
+                    <!-- <a class="navbar-brand" href="#">
+                        <img src="/docs/4.6/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="Platinum Car Dealership logo">
+                    </a> -->
+    
+                    <a class="navbar-brand" href="#"> <span class="text-warning">Platinum</span> Car Dealership</a>
+    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+                        <ul class="navbar-nav ml-auto ml-2 ml-lg-0">
+
+                            <!-- Home -->
+                            <li class="nav-item active">
+                                <a class="nav-link current-menu-item" href="#">Home</a>
+                            </li>
+    
+                            <!-- New Vehicles -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="inventory.html">New Vehicles </a>
+                            </li>
+
+                            <!-- Finance -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="Finance.html">Finance</a>
+                            </li>
+    
+                            <!-- Used Vehicles -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="inventory.html">Used Vehicles</a>
+                            </li>
+                            
+                            <!-- Trade In Vehicles -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="tradeIn.html">Trade In</a>
+                            </li>
+    
+                            <!-- Services & Parts -->
+                            <li class="nav-item dropdown">
+    
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    Service & Parts
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="/Services/center">Service Center</a>
+                                    <a class="dropdown-item" href="/Services/schedule">Schedule Service</a>
+                                </div>
+                            </li>
+                            
+                            <!-- About -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    About
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="/About/about-us"> Center</a>
+                                    <a class="dropdown-item" href="/About/contact-us">Contact Us</a>
+                                    <a class="dropdown-item" href="/About/Careers">Careers</a>
+                                </div>
+                            </li>
+                            
+                        </ul>
+    
+                    </div>
+                </div>
+    
+            </nav>
+        </header>
+
+        <section class="show-section-slide">
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://mensgear.b-cdn.net/wp-content/uploads/2021/11/best-american-muscle-cars.jpeg"  class="d-block w-100" alt="...">
+                        <div class="carousel-caption ">
+                            <h5>We got your next car</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/car1-sideshow.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption ">
+                            <h5>We have the best deals</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://docs.spm247.com/ftpcs/2019/Toyota/Highlander/2019-Toyota-Highlander-hero3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption "> <!--d-none d-md-block deleted for small screens-->
+                            <h5>Ready to trade in</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!--Search -->
+        
+        <!--Services section-->
+        <section id="services" class="services section-padding">
+            
+            <div class="container">
+                
+                <!-- Our services section--> 
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pd-5">
+                            <h2>Our Services</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Id sunt harum, repudiandae corrupti, ipsam quas blanditiis, natus maxime aliquam qui ex 
+                                consectetur enim eveniet sequi eum aspernatur consequuntur magnam laudantium. <br>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint expedita deleniti, 
+                                dignissimos temporibus rerum sapiente cupiditate unde enim veniam beatae nulla, 
+                                nemo aliquid atque, magnam voluptate nihil ut. Earum, vero?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="row">      
+                    <!--what are the services available-->
+                        <div class="col-12 col-md-12 col-lg-4">
+                            <div class="card text-white text-center bg-dark pb-2">
+                                <div class="card-body">
+                                    <i class="bi bi-tools"></i>
+                                    <h3 class="card-title">Service Center</h3>
+                                    <p class="lead">
+                                        We have a team of qualified service technicians standing by to help you with any of your service related needs. From oil changes, tire rotations, brake pads or transmission problems, 
+                                        we've got trained technicians who are able to help.
+                                    </p>
+                                    <button class="btn btn-warning text-dark">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- Schedule an appointment -->
+                        <div class="col-12 col-md-12 col-lg-4">
+                            <div class="card text-white text-center bg-dark pb-2">
+                                <div class="card-body">
+                                    <i class="bi bi-bookmark-plus-fill"></i>
+                                    <h3 class="card-title">Schedule an appointment</h3>
+                                    <p class="lead">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo excepturi fugiat laboriosam ipsam quod quo nihil, 
+                                        iusto aspernatur sint rem provident sunt eius recusandae voluptate, quisquam nemo dolore architecto!
+                                    </p>
+                                    <!-- Button trigger modal -->
+                                    <button class="btn btn-warning text-dark" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book Now</button>
+
+                                    <!--Book Now Model-->   
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Book An Appointment</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <select class="form-select" aria-label="Reason for Book An Appointment">
+                                                        <option selected value="1">Trade In</option>
+                                                        <option value="2">Buy a new car</option>
+                                                        <option value="3">Rent a car </option>
+                                                    </select>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-warning">Book Now</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+
+                    <!-- Renting a vehicle -->
+                        <div class="col-12 col-md-12 col-lg-4">
+                            <div class="card text-white text-center bg-dark pb-2">
+                                <div class="card-body">
+                                    <i class="bi bi-usb-symbol"></i>
+                                    <h3 class="card-title">Renting a Vehicle</h3>
+                                    <p class="lead">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo excepturi fugiat laboriosam ipsam quod quo nihil, 
+                                        iusto aspernatur sint rem provident sunt eius recusandae voluptate, quisquam nemo dolore architecto!
+                                    </p>
+                                    <button class="btn btn-warning text-dark">Rent Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                </div> <!-- end of row class -->
+
+            </div> <!-- End of section class -->
+
+        </section>
+
+        <!--about-->
+        <section id="about" class="about section-padding">
+            <div class="container">
+
+                <div class="row">
+                    
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <div class="about-img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjTIMEOC-CdtKXp5bHqz6rFVFEITQzlwKkpbZggV3LDqFIcbgNan-M4Y-el-RQFoLnFqw&usqp=CAU" alt="" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                        <div class="about-text">
+                            <h2>We Provide Best Quality <br> Services Ever </h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet excepturi 
+                                quasi consequatur voluptates, incidunt repudiandae molestias ducimus dolore, ratione ex illo modi, 
+                                magni molestiae veniam accusantium id iusto atque. Perspiciatis.
+                            </p>
+
+                            <a href="#" class="btn btn-warning"> Learn More </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--Contact Us-->
+        <section id="contact-us" class="contact section-padding">
+            <div class="container">
+
+                <!--Contact us main content-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pb5">
+                            <h5>Contact Us</h5>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis atque minima maxime officiis necessitatibus illum fugiat dicta rem dolor 
+                                laborum cumque rerum, quam distinctio architecto magnam, ab debitis, consequatur omnis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Us - Form -->
+                <div class="row m-0">
+                    <div class="col-md-12 p-0 pt-4 pb-4">
+
+                        <form action="#" class="bg-light p-4.m-auto">
+                            <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" required placeholder="Your Full Name">
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <input type="email" class="form-control" required placeholder="Your Email Here">
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <textarea rows="3" required placeholder="Your message us" class="form-control"></textarea>
+                                        </div>
+                                    </div>
+        
+                                    <button class="btn btn-warning btn-lg btn-block mt-3">Send Now</button>
+
+                            </div> 
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- footer -->
+        <footer class="bg-dark p-2 text-center">
+            <div class="container">
+                <p class="text-white">
+                    All Rights Reversed @Platinum Mind By Hesham Eldawy
+                </p>
+
+            </div>
+        </footer>
+
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
